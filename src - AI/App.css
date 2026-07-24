@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Uncial+Antiqua&family=Material+Symbols+Outlined:wght@400&display=swap');
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #f4f4f4;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #848482;
+  padding: 15px 20px;
+}
+
+.navbar h2 {
+  color: white;
+  font-family: 'Uncial Antiqua', system-ui;
+}
+
+.links a {
+  color: yellow;
+  text-decoration: none;
+  margin-left: 25px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.links a:hover {
+  color: #ffc0cb;
+}
+
+.content {
+  padding: 20px;
+}
+
+.page {
+  background: white;
+  border-radius: 10px;
+  padding: 20px;
+  max-width: 900px;
+  margin: auto;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+}
+
+form {
+  margin-top: 20px;
+}
+
+input {
+  padding: 10px;
+  width: 280px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+button {
+  padding: 10px 12px;
+  margin-left: 5px;
+  background-color: #fb4f14;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #84c684;
+}
+
+.movie-list {
+  list-style: none;
+  padding: 0;
+}
+
+.movie-list li {
+  background: #f8f8f8;
+  margin-top: 10px;
+  padding: 12px;
+  border-radius: 8px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.completed span:first-child {
+  text-decoration: line-through;
+  color: gray;
+}
+
+.actions {
+  display: flex;
+  gap: 5px;
+}
+
+.stats {
+  margin-top: 20px;
+  display: flex;
+  gap: 20px;
+  font-weight: bold;
+}
+
+.material-symbols-outlined {
+  font-size: 20px;
+  vertical-align: middle;
+}
+
+.tmdb-card {
+  background: #f8f8f8;
+  border-radius: 8px;
+  padding: 15px;
+  margin-bottom: 20px;
+}
+
+.tmdb-card img {
+  display: block;
+  margin-bottom: 10px;
+  border-radius: 8px;
+}
+
+.tmdb-card h3 {
+  margin: 5px 0;
+}
